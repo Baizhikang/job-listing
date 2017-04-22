@@ -1,4 +1,5 @@
-<div class="col-md-4 col-md-offset-4 login-page">
+<div class="row user_setup">
+ <div class="col-md-4 col-md-offset-4 login-page">
 
   <%= simple_form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
     <h2 class="text-center">®️SR.com</h2>
@@ -14,4 +15,5 @@
     <br>
     <%= render "devise/shared/links" %>
   <% end %>
+ </div>
 </div>
