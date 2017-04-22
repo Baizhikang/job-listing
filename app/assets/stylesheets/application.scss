@@ -20,6 +20,16 @@
  @import "font-awesome";
  @import url(http://fonts.googleapis.com/css?family=Roboto);
 
+ html{
+   position: relative;
+   min-height: 100%
+ }
+
+ body{
+   /* margin bottom by footer height */
+   margin-bottom: 100px
+ }
+
  //---------Navbar---------
 
  .navbar-default {
@@ -138,26 +148,20 @@
 
   //---------Footer---------
 
-
- footer .footer-below {
-     padding: 25px 0;
-     background-color: #233140;
- }
-
- footer {
-   color: white;
+ .footer {
    position: absolute;
    bottom: 0;
    width: 100%;
+   /* set the fixed height of the footer here */
    height: 100px;
-   padding: 25px, 0px;
-}
+   background-color: #233140;
 
-html {
- font-size: 16px;
- position: relative;
- min-height: 100%;
-}
+   p{
+     color:white;
+     margin-top: 30px;
+    }
+   }
+
 
 
 //-----------form-------
