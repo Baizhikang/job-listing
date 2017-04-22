@@ -162,8 +162,6 @@
     }
    }
 
-
-
 //-----------form-------
 
 .custab{
@@ -179,4 +177,60 @@
 .custab:hover{
   box-shadow: 3px 3px 0px transparent;
   transition: 0.5s;
+}
+
+/* login/sign-up */
+
+.login-page, .sign-up-page {
+  margin-top: 120px;
+  margin-bottom: 80px;
+  span {
+    display: inline-block;
+    margin-right: 15px;
+  }
+  form {
+    max-width: 480px;
+    padding: 15px 35px 45px;
+    margin: 0 auto;
+    background-color: #90A4AE;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 5px;
+    box-shadow: inset 0 1px 1px #9daaaf, 0 0 8px #c1c5c1;
+    h2 {
+      margin-bottom: 30px;
+    }
+    .form-control {
+      position: relative;
+  	  font-size: 16px;
+  	  height: auto;
+  	  padding: 10px;
+      transition: 1s;
+           }
+  		}
+    }
+
+
+  .col-md-4 col-md-offset-4 login-page {
+    background-color: #233140;
+  }
+
+  /*=Base=*/
+
+section {
+  padding: 5em 0;
+}
+
+footer {
+  padding: 3em 0;
+}
+
+form {
+  @media screen and (max-width: 768px) and (min-width: 485px) {
+    max-width: 70%;
+  }
+}
+
+hr {
+  margin-bottom: 3em;
+  width: 7%;
 }
